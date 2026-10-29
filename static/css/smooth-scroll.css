@@ -1,0 +1,23 @@
+/*
+ * Shared scroll container styling for the harvest, irrigation, and
+ * notifications pages.
+ */
+.smooth-scroll-wrapper {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(16, 185, 129, 0.55) transparent;
+}
+
+.smooth-scroll-wrapper::-webkit-scrollbar {
+    height: 6px;
+}
+
+.smooth-scroll-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.smooth-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(16, 185, 129, 0.55);
+    border-radius: 999px;
+}
